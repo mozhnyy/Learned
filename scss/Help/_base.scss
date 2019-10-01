@@ -1,0 +1,69 @@
+/* START SIZE CALC */  /* BASE */
+html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+    *,
+    *::after,
+    *::before {
+    box-sizing: inherit;
+    }
+    /* BODY */
+    body {
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 1;
+    background-color: #f2f2f2;
+    text-transform: uppercase;
+    }
+
+    .wrapper {
+        max-width: 1200px;
+        margin: auto;
+        background-color: #ffffff;
+        box-shadow: 1px 1px 15px 14px #dcdcdc;
+    }
+    /* LINKS */
+    a {
+    text-decoration: none;
+    font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+    color: #000000;
+    }
+    /* IMG */
+    img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    }
+
+    p, ul, h1, h2, h3, h4, h5, h6 {
+        padding: 0;
+        margin: 0;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .visually-hidden {
+    position: absolute;
+
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+
+  white-space: nowrap;
+
+  border: 0;
+
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+}
