@@ -5,52 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <header class="header">
+    <div class="wrapper">
+    <header class="header flexable">
         <a href="#"><p class="logo">design.</p></a>
         <nav class="nav">
             <ul class="nav-list">
-                <li class="nav-list__item"></li>
-                <li class="nav-list__item"></li>
-                <li class="nav-list__item"></li>
-                <li class="nav-list__item"></li>
-                <li class="nav-list__item"></li>
-                <li class="nav-list__item"></li>
+                <li class="nav-list__item"><a href="#">products</a></li>
+                <li class="nav-list__item"><a href="#">design</a></li>
+                <li class="nav-list__item"><a href="#">projects</a></li>
+                <li class="nav-list__item"><a href="#">features</a></li>
+                <li class="nav-list__item"><a href="#">company</a></li>
+                <li class="nav-list__item"><a href="#">contacts</a></li>
             </ul>
-            <div class="contacts">
+        </nav>
+        <div class="contacts">
                 <p class="number">+3 (848) 458 56 59</p>
                 <button class="contacts-btn btn">contact us</button>
             </div>
-        </nav>
     </header>
 
     <section class="banner">
         <h1>Your free UI-Kit</h1>
         <p>Download now for free</p>
-        <button class="btn"></button>
+        <button class="btn">download</button>
     </section>
 
     <section class="disign">
+        <h2>Awesome design</h2>
         <ul class="disign-list">
             <li class="disign-list__item">
                 <div class="item-col">
-                    <img src="/img/design-img-01.jpg" alt="пейзаж">
+                    <img src="/img/design-img-01.jpg" alt="пейзаж" width="96" height="112">
                 </div>
-                <div class="item-details"></div>
+                <div class="item-details">
+                    <h3>Design concept</h3>
+                    <p>Contrary to popular belief,
+                            Lorem Ipsum is not simply</p>
+                </div>
             </li>
             <li class="disign-list__item">
                 <div class="item-col">
-                    <img src="/img/design-img-02.jpg" alt="пейзаж">
+                    <img src="/img/design-img-02.jpg" alt="пейзаж" width="96" height="112">
                 </div>
-                <div class="item-details"></div>
+                <div class="item-details">
+                    <h3>How to create?</h3>
+                    <p>The standard chunk of Lorem
+                            Ipsum used since the 1500s</p>
+                </div>
             </li>
             <li class="disign-list__item">
                 <div class="item-col">
-                    <img src="/img/design-img-03.jpg" alt="пейзаж">
+                    <img src="/img/design-img-03.jpg" alt="пейзаж" width="96" height="112">
                 </div>
-                <div class="item-details"></div>
+                <div class="item-details">
+                    <h3>You will love it</h3>
+                    <p>It is a long established fact
+                            that a reader will be</p>
+                </div>
             </li>
         </ul>
     </section>
@@ -115,5 +130,6 @@
             </li>
         </ul>
     </section>
+</div>
 </body>
 </html>

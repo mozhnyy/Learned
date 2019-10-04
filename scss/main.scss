@@ -1,2 +1,90 @@
+@import "base";
+@import "colors";
+
+@mixin flexable() {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    padding: 0 33px;
+}
+
+.flexable {
+    @include flexable();
+}
+
+.nav {
+    @extend .flexable;
+}
+
+.nav-list {
+    @extend .flexable;
+}
+
+.contacts {
+    @extend .flexable;
+}
+
+.disign-list {
+    @extend .flexable;
+}
+
+.nav-list__item a {
+    margin-right: 35px;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+
+.number {
+    font-size: 20px;
+    margin-right: 23px;
+}
 
 
+.btn {
+    background-color: $violet;
+    border-radius: 20px;
+    box-shadow: 0 1px 6px 1px rgba(0, 0, 0, 0.16), 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+    width: 160px;
+    height: 40px;
+    color: $white;
+    text-transform: uppercase; 
+}
+
+.disign {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ededed;
+}
+
+.disign h2 {
+    padding-top: 64px;
+    padding-bottom: 40px;
+}
+
+.disign-list {
+    padding-bottom: 64px;
+    display: flex;
+}
+
+.disign-list__item {
+    display: flex;
+    width: 316px;
+    background-color: $white;
+}
+
+.item-details {
+    padding: 25px 0;
+    margin-left: 23px;   
+}
+
+.item-details p {
+    max-width: 157px;
+    margin-top: 19px;
+    line-height: 21px;
+   
+}

@@ -10,20 +10,21 @@ html {
     box-sizing: inherit;
     }
     /* BODY */
+
+    $roboto: 'Roboto', Arial, sans-serif;
     body {
     padding: 0;
     margin: 0;
-    font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+    font-family: $roboto;
     font-size: 14px;
     font-weight: 400;
     color: #000000;
     line-height: 1;
     background-color: #f2f2f2;
-    text-transform: uppercase;
     }
 
     .wrapper {
-        max-width: 1200px;
+        max-width: 1366px;
         margin: auto;
         background-color: #ffffff;
         box-shadow: 1px 1px 15px 14px #dcdcdc;
