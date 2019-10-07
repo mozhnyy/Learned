@@ -34,6 +34,7 @@
 .nav-list__item a {
     margin-right: 35px;
     text-transform: uppercase;
+    color: #ffffff;
     opacity: 0.7;
 }
 
@@ -52,6 +53,36 @@
     color: $white;
     text-transform: uppercase; 
 }
+
+.overall-theme {
+    background: url('/img/banner.jpg') no-repeat center/cover;
+    padding-bottom: 30px;
+}
+
+.banner-info {
+    margin-top: 210px;
+    text-align: center;
+
+}
+
+.banner-info h1, p {
+    color: $white;
+}
+
+.banner-info h1 {
+    margin-bottom: 30px;
+    font-size: 48px;
+}
+.banner-info p {
+    opacity: 0.8;
+    margin-bottom: 35px;
+    font-size: 24px;
+}
+
+.banner-info button {
+    margin-bottom: 145px;
+}
+
 
 .disign {
     width: 100%;
@@ -86,5 +117,5 @@
     max-width: 157px;
     margin-top: 19px;
     line-height: 21px;
-   
 }
+

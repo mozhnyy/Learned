@@ -90,6 +90,7 @@ ul {
 .nav-list__item a {
   margin-right: 35px;
   text-transform: uppercase;
+  color: #ffffff;
   opacity: 0.7;
 }
 
@@ -107,6 +108,35 @@ ul {
   height: 40px;
   color: #ffffff;
   text-transform: uppercase;
+}
+
+.overall-theme {
+  background: url("/img/banner.jpg") no-repeat center/cover;
+  padding-bottom: 30px;
+}
+
+.banner-info {
+  margin-top: 210px;
+  text-align: center;
+}
+
+.banner-info h1, p {
+  color: #ffffff;
+}
+
+.banner-info h1 {
+  margin-bottom: 30px;
+  font-size: 48px;
+}
+
+.banner-info p {
+  opacity: 0.8;
+  margin-bottom: 35px;
+  font-size: 24px;
+}
+
+.banner-info button {
+  margin-bottom: 145px;
 }
 
 .disign {
