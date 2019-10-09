@@ -1,0 +1,46 @@
+
+.app-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 189px;
+}
+.app-row-1 {
+     margin-top: 77px;
+     margin-bottom: 77px;
+     margin-left: 189px;
+     margin-right: 10%;
+    
+    .app-col {
+        margin-right: 90px;
+    }
+}
+
+.app-row-2 {
+    margin-top: 70px;
+    margin-bottom: 64px;
+    margin-right: 10px;
+}
+
+.details {
+    h2 {
+        margin-bottom: 17px;
+        font-size: 32px;
+        font-weight: 700;
+    }
+    p {
+        opacity: 0.7;
+        line-height: 24px;
+        max-width: 434px;
+        margin-bottom: 16px;
+    }
+    .app-btn {
+        color: $orange;
+        text-transform: uppercase;
+        background: none;
+        border: none;
+        
+    }
+}
+
+

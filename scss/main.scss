@@ -27,9 +27,6 @@
     @extend .flexable;
 }
 
-.disign-list {
-    @extend .flexable;
-}
 
 .nav-list__item a {
     margin-right: 35px;
@@ -65,7 +62,7 @@
 
 }
 
-.banner-info h1, p {
+.banner-info, .banner-text {
     color: $white;
 }
 
@@ -84,38 +81,5 @@
 }
 
 
-.disign {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #ededed;
-}
-
-.disign h2 {
-    padding-top: 64px;
-    padding-bottom: 40px;
-}
-
-.disign-list {
-    padding-bottom: 64px;
-    display: flex;
-}
-
-.disign-list__item {
-    display: flex;
-    width: 316px;
-    background-color: $white;
-}
-
-.item-details {
-    padding: 25px 0;
-    margin-left: 23px;   
-}
-
-.item-details p {
-    max-width: 157px;
-    margin-top: 19px;
-    line-height: 21px;
-}
-
+@import "design";
+@import "app";
