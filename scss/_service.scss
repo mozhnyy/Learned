@@ -1,0 +1,24 @@
+.service {
+    &__item {
+        display: flex;
+        flex-direction: row;
+        padding: 34px 0;
+        align-items: center;
+        justify-content: space-between;
+        text-align: left;
+        &>* {
+            width: 48%;
+        }
+        &--reverse {
+            flex-direction: row-reverse;
+        }
+
+    }
+
+    &__title {
+        margin-bottom: 17px;
+    }
+    &__text {
+        margin-bottom: 16px;
+    }
+}

@@ -1,0 +1,23 @@
+.btn {
+    display: inline-block;
+    width: 100%;
+    max-width: 160px;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    outline: none;
+    color: $white;
+    text-transform: uppercase;
+    border-radius: 20px;
+    
+
+    &--fiolet {
+		box-shadow: 0 1px 6px 1px rgba(0, 0, 0, 0.16), 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+		background-color: $fiolet;
+  }
+  
+  &--red {
+		background-color: #ff3d00;
+		box-shadow: 0 1px 6px 1px rgba(0, 0, 0, 0.16), 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+	}
+}

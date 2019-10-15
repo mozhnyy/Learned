@@ -1,0 +1,39 @@
+.work {
+    padding: 64px 0;
+    text-align: center;
+    padding-top: 215px;
+    
+    &__h-2 {
+        margin-bottom: 64px;
+    }
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        &>* {
+            width: 22%;
+        }
+    }
+    &__item {
+        margin: 0;
+    }
+    &__wrap {
+        width: 140px;
+        height: 140px;
+        border-radius: 70px;
+        background-color: $orange;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        margin: auto;
+        margin-bottom: 23px;   
+    }
+    &__title {
+        margin-bottom: 16px;
+    }
+    &__text {
+        line-height: 22px;
+        opacity: 0.5;
+    }
+}

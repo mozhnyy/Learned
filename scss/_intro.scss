@@ -1,0 +1,21 @@
+.intro {
+    padding: 277px 0 197px;
+    background: url('/img/banner.jpg') no-repeat center/cover;
+    color: $white;
+    text-align: center;
+
+    &-title {
+        letter-spacing: 0.77px;
+        margin-bottom: 32px;
+        font-size: 48px;
+        font-weight: 700;
+    }
+
+    &-text {
+        letter-spacing: 0.38px;
+        color: $white;
+        opacity: 0.8;
+        font-size: 24px;
+        margin-bottom: 39px;
+    }
+}

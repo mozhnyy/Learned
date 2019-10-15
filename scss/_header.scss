@@ -1,0 +1,60 @@
+.header {
+    position: relative;
+    width: 100%;
+}
+
+.nav {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    color: $white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: $white;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+
+    &::after {
+        position: absolute;
+        content: '';
+        background-color: $orange;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        bottom: +5px;
+        right: -20px;
+    }
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    max-width: 605px;
+    width: 100%;
+
+    a {
+        display: block;
+        color: $white;
+        opacity: 0.7;
+        text-transform: uppercase;
+    }
+}
+
+.tel {
+    font-size: 20px;
+    color: $white;
+
+    span {
+        color: #b2b2b2;
+    }
+}

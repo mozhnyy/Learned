@@ -1,0 +1,27 @@
+.team {
+    padding-top: 64px;
+    background-color: #5a00d6;
+    color: $white;
+    position: relative;
+    text-align: center;
+    padding-bottom: 254px;
+    
+    &__title {
+        margin-bottom: 24px;
+    }
+    &__text {
+        max-width: 666px;
+        margin: auto;
+        margin-bottom: 31px;
+    }
+    &__btn {
+        max-width: 120px;
+        margin-bottom: 31px;
+    }
+    &__mockup {
+        position: absolute;
+        bottom: -30%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

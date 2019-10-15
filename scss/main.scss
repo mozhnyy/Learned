@@ -1,85 +1,19 @@
 @import "base";
 @import "colors";
-
-@mixin flexable() {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header {
-    padding: 0 33px;
-}
-
-.flexable {
-    @include flexable();
-}
-
-.nav {
-    @extend .flexable;
-}
-
-.nav-list {
-    @extend .flexable;
-}
-
-.contacts {
-    @extend .flexable;
-}
-
-
-.nav-list__item a {
-    margin-right: 35px;
-    text-transform: uppercase;
-    color: #ffffff;
-    opacity: 0.7;
-}
-
-.number {
-    font-size: 20px;
-    margin-right: 23px;
-}
-
-
-.btn {
-    background-color: $violet;
-    border-radius: 20px;
-    box-shadow: 0 1px 6px 1px rgba(0, 0, 0, 0.16), 0 3px 5px 1px rgba(0, 0, 0, 0.24);
-    width: 160px;
-    height: 40px;
-    color: $white;
-    text-transform: uppercase; 
-}
-
-.overall-theme {
-    background: url('/img/banner.jpg') no-repeat center/cover;
-    padding-bottom: 30px;
-}
-
-.banner-info {
-    margin-top: 210px;
-    text-align: center;
-
-}
-
-.banner-info, .banner-text {
-    color: $white;
-}
-
-.banner-info h1 {
-    margin-bottom: 30px;
-    font-size: 48px;
-}
-.banner-info p {
-    opacity: 0.8;
-    margin-bottom: 35px;
-    font-size: 24px;
-}
-
-.banner-info button {
-    margin-bottom: 145px;
-}
-
-
 @import "design";
-@import "app";
+@import "service";
+@import "intro";
+@import "header";
+@import "button";
+@import "grid";
+@import "team";
+@import "work";
+@import "landing";
+@import "footer"
+
+
+
+
+
+
+

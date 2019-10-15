@@ -1,0 +1,36 @@
+.footer {
+    background-color: #212121;
+    padding-top: 32px;
+    color: $white;
+    font-size: 13px;
+    font-weight: 500;
+
+    &__inner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        &>* {
+            width: 20%;
+        }
+    }
+
+    &-menu a {
+        color: inherit;
+    }
+
+    &__title {
+        font-size: 11px;
+        opacity: 0.4;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+
+    .column {
+        margin-bottom: 30px;
+    }
+}
+
+.low__text {
+    font-size: 12px;
+    opacity: 0.4;
+}
