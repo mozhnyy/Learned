@@ -12,8 +12,15 @@
         justify-content: space-between;
         align-items: flex-start;
 
+        @media (max-width: 992px) {
+            flex-wrap: wrap;
+        }
+
         &>* {
             width: 32%;
+            @media (max-width: 992px) {
+                width: 100%;
+            }
         }
     }
 
@@ -24,6 +31,12 @@
         display: flex;
         align-items: center;
         margin: auto;
+        @media (max-width: 992px) {
+            margin-bottom: 30px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
     }
 
     &__content {
