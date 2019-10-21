@@ -2,6 +2,9 @@
     padding: 64px 0;
     text-align: center;
     padding-top: 215px;
+    @media (max-width: 768px) {
+        padding-top: 60px;
+    }
     
     &__h-2 {
         margin-bottom: 64px;
@@ -12,10 +15,24 @@
         justify-content: space-between;
         &>* {
             width: 22%;
+            @media (max-width: 768px) {
+                width: 48%;
+            }
+            @media (max-width: 450px) {
+                width: 100%;
+                max-width: 300px;
+            }
         }
     }
     &__item {
         margin: 0;
+        @media (max-width: 768px) {
+            margin-bottom: 30px;
+        }
+        @media (max-width: 450px) {
+            margin: auto;
+            margin-bottom: 30px;
+        }
     }
     &__wrap {
         width: 140px;

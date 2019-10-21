@@ -5,6 +5,9 @@
     position: relative;
     text-align: center;
     padding-bottom: 254px;
+    @media (max-width: 768px) {
+        padding-bottom: 0;
+    }
     
     &__title {
         margin-bottom: 24px;
@@ -16,12 +19,16 @@
     }
     &__btn {
         max-width: 120px;
-        margin-bottom: 31px;
     }
     &__mockup {
         position: absolute;
         bottom: -30%;
         left: 50%;
         transform: translateX(-50%);
+        @media (max-width: 768px) {
+            position: static;
+            transform: unset;
+            margin-top: 30px;
+        }
     }
 }
