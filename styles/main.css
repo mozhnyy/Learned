@@ -204,6 +204,65 @@ ul {
   font-size: 13px;
 }
 
+.service__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 34px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .service__item {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.service__item > * {
+  width: 48%;
+}
+
+@media (max-width: 768px) {
+  .service__item > * {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.service__item--reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.service__title {
+  margin-bottom: 17px;
+}
+
+.service__text {
+  margin-bottom: 16px;
+}
+
+@media (max-width: 768px) {
+  .service__image {
+    width: auto;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+}
+
 .intro {
   padding: 277px 0 197px;
   background: url("/img/banner.jpg") no-repeat center/cover;

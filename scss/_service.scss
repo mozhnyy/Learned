@@ -6,8 +6,17 @@
         align-items: center;
         justify-content: space-between;
         text-align: left;
+        
+        @media (max-width: 768px) {
+            flex-wrap: wrap;
+        }
+
         &>* {
             width: 48%;
+            @media (max-width: 768px) {
+                width: 100%;
+                text-align: center;
+            }
         }
         &--reverse {
             flex-direction: row-reverse;
@@ -20,5 +29,13 @@
     }
     &__text {
         margin-bottom: 16px;
+    }
+
+    &__image {
+        @media (max-width: 768px) {
+            width: auto;
+            margin: auto;
+            margin-bottom: 30px;
+        }
     }
 }
