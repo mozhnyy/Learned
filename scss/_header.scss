@@ -1,12 +1,19 @@
 .header {
     position: relative;
     width: 100%;
+    &__btn {
+        @media (max-width: 1020px) {
+            display: none;
+        }
+    }
 }
 
 .nav {
     position: absolute;
     left: 0;
     right: 0;
+    padding-right: 15px;
+    padding: 15px;
     width: 100%;
     max-width: 1300px;
     margin: auto;
@@ -15,6 +22,9 @@
     color: $white;
     align-items: center;
     justify-content: space-between;
+    @media (max-width: 1200px) {
+        
+    }
 }
 
 .logo {
@@ -41,11 +51,20 @@
     justify-content: space-between;
     max-width: 605px;
     width: 100%;
+    @media (max-width: 1020px) {
+        margin-left: 50px;
+    }
+    @media (max-width: 768px) {
+        position: absolute;
+        top: 70px;
+        margin: 0;
+        max-width: 100%;
+        display: none;
+    }
 
     a {
         display: block;
-        color: $white;
-        opacity: 0.7;
+        color: rgba(255, 255, 255, 0.7);
         text-transform: uppercase;
     }
 }
@@ -56,5 +75,27 @@
 
     span {
         color: #b2b2b2;
+    }
+    @media (max-width: 1200px) {
+        display: none;
+    }
+}
+
+.burger {
+    display: none;
+    @media (max-width: 768px) {
+        display: block;
+    }
+}
+
+.show {
+    display: block;
+    background: $fiolet;
+    a {
+        display: block;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        text-transform: uppercase;
     }
 }
